@@ -96,3 +96,18 @@ for (const number of numbers) {
 carBrands.forEach((carBrand) => {
   console.log(carBrand);
 });
+
+//Adding Array Elements
+const operatingSystems = ["Linux", "Windows", "Apple macOS", "Apple iOS"];
+operatingSystems.push("Android");
+
+operatingSystems[operatingSystems.length] = "Linux";
+// operatingSystems[8] = "Windows";
+
+console.log(operatingSystems);
+
+const shoes = ["AirForce1", "Jordan 4's", "Nike Sb Dunks", "Vans"];
+let type = typeof shoes;
+console.log(type); //object
+console.log(Array.isArray(shoes)); //true
+//The Javascript arr. isArray() method determines whether the value passed to this function is an array or not.
