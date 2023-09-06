@@ -14,7 +14,7 @@ console.log("THe Random NUmber Between 1 and 10 is:", randomNumber); //his part 
 //How can you simulate flipping a coin and getting either heads (1) or tails (0) using Math.random() and Math.floor()?
 const coinFlip = Math.floor(Math.random() * 2);
 if (coinFlip == 0) {
-  console.log("Tails(0)");
+  console.log("Tails (0)");
 } else {
-  console.log("Heads(1)");
+  console.log("Heads (1)");
 }
